@@ -1,0 +1,7 @@
+document.querySelectorAll('.oF4XW').forEach((item, index) => {
+  setTimeout(() => {
+    if (item.textContent && item.textContent === 'Follow') {
+      item.click();
+    }
+  }, 1000 * index);
+});
